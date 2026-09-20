@@ -1,0 +1,9 @@
+body { margin:0; font-family: Arial, sans-serif; background:#f8f7fb; color:#171717; }
+.admin-shell { display:grid; grid-template-columns:260px 1fr; min-height:100vh; }
+.sidebar { background:#111827; color:white; padding:30px 22px; }
+.sidebar ul { list-style:none; padding:0; margin:22px 0 0; display:grid; gap:14px; }
+.sidebar li { padding:12px 14px; background:rgba(255,255,255,0.06); border-radius:12px; }
+.admin-main { padding:32px; }
+.stats-grid { display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:16px; margin:22px 0; }
+.stat-card, .admin-panel { background:#fff; border-radius:18px; padding:20px; box-shadow:0 10px 24px rgba(17,24,39,0.06); }
+@media (max-width: 750px) { .admin-shell { grid-template-columns:1fr; } .stats-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }

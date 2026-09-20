@@ -1,0 +1,17 @@
+﻿{
+    "SAVE200":  {
+                    "description":  "৳200 off",
+                    "value":  200,
+                    "type":  "fixed"
+                },
+    "WELCOME10":  {
+                      "description":  "10% off new customer orders",
+                      "value":  10,
+                      "type":  "percent"
+                  },
+    "FIRSTORDER":  {
+                       "description":  "৳300 off first order",
+                       "value":  300,
+                       "type":  "fixed"
+                   }
+}

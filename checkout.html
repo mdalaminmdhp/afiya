@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout | AFIYA FASHION HOUSE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand">
+          <img src="assets/logo/logo.svg" alt="AFIYA logo" />
+          <span class="brand-name">AFIYA FASHION HOUSE</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="container section">
+      <div class="section-header">
+        <h2>Checkout</h2>
+        <p>Complete your order and choose your preferred payment option.</p>
+      </div>
+      <div class="checkout-grid">
+        <div class="form-panel">
+          <form id="checkout-form">
+            <div class="input-grid">
+              <div class="field"><label>Full Name</label><input type="text" name="fullName" required /></div>
+              <div class="field"><label>Phone Number</label><input type="tel" name="phone" required /></div>
+            </div>
+            <div class="input-grid">
+              <div class="field"><label>Email</label><input type="email" name="email" /></div>
+              <div class="field"><label>District</label><input type="text" name="district" required /></div>
+            </div>
+            <div class="field"><label>Full Address</label><textarea name="address" required></textarea></div>
+            <div class="field"><label>Area</label><input type="text" name="area" /></div>
+            <div class="field"><label>Delivery Note</label><textarea name="deliveryNote"></textarea></div>
+
+            <div class="payment-options">
+              <label class="payment-option"><input type="radio" name="paymentMethod" value="Cash on Delivery" checked /> Cash on Delivery</label>
+              <label class="payment-option"><input type="radio" name="paymentMethod" value="bKash" /> bKash</label>
+              <label class="payment-option"><input type="radio" name="paymentMethod" value="Nagad" /> Nagad</label>
+              <label class="payment-option"><input type="radio" name="paymentMethod" value="Card / Online Payment" /> Card / Online Payment</label>
+            </div>
+            <div class="detail-actions" style="margin-top: 24px;">
+              <button class="btn btn-primary" type="submit">Place Order</button>
+              <a class="btn btn-secondary" href="https://wa.me/8801701585007" target="_blank" rel="noreferrer">Order via WhatsApp</a>
+            </div>
+          </form>
+          <div id="checkout-message" class="notice success" style="display:none;"></div>
+        </div>
+
+        <aside class="order-panel">
+          <h3>Order Summary</h3>
+          <div id="checkout-cart-items" class="cart-items"></div>
+          <div class="summary-table" style="margin-top: 20px;">
+            <div class="summary-line"><span>Subtotal</span><strong id="checkout-subtotal">৳0</strong></div>
+            <div class="summary-line"><span>Delivery Fee</span><strong id="checkout-delivery">৳0</strong></div>
+            <div class="summary-line"><span>Discount</span><strong id="checkout-discount">-৳0</strong></div>
+            <div class="summary-line summary-total"><span>Grand Total</span><strong id="checkout-total">৳0</strong></div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <script src="js/app.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/checkout.js"></script>
+  </body>
+</html>

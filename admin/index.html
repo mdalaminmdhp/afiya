@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AFIYA Admin</title>
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body>
+    <div class="admin-shell">
+      <aside class="sidebar">
+        <h2>AFIYA Admin</h2>
+        <ul>
+          <li>Products</li>
+          <li>Orders</li>
+          <li>Customers</li>
+          <li>Reviews</li>
+          <li>Coupons</li>
+          <li>Delivery Zones</li>
+        </ul>
+      </aside>
+      <main class="admin-main">
+        <h1>Store Management Dashboard</h1>
+        <div class="stats-grid">
+          <div class="stat-card"><h3>Products</h3><span id="admin-product-count">0</span></div>
+          <div class="stat-card"><h3>Orders</h3><span>0</span></div>
+          <div class="stat-card"><h3>Reviews</h3><span>0</span></div>
+          <div class="stat-card"><h3>Coupons</h3><span>3</span></div>
+        </div>
+        <div class="admin-panel">
+          <h3>Admin notes</h3>
+          <p>This panel is ready for product CRUD, order management, review moderation and payment integration. Keep credentials in secure server-side env variables.</p>
+        </div>
+      </main>
+    </div>
+    <script src="admin.js"></script>
+  </body>
+</html>

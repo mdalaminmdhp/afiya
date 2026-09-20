@@ -1,0 +1,16 @@
+/* Additional responsive fine-tuning for the storefront. */
+
+@media (max-width: 980px) {
+  .nav-contact { display: none; }
+  .main-nav { gap: 12px; }
+}
+
+@media (max-width: 700px) {
+  .header-actions .icon-btn:nth-child(2),
+  .header-actions .icon-btn:nth-child(3) {
+    display: none;
+  }
+  .brand-name {
+    letter-spacing: -0.03em;
+  }
+}

@@ -1,0 +1,19 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AFIYA FASHION HOUSE logo">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="60%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#F5D76E"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="52" fill="#f8f7fb"/>
+  <circle cx="120" cy="120" r="92" fill="url(#g1)"/>
+  <path d="M70 67h100v22H132v76h-24V89H70z" fill="#fff" opacity="0.96"/>
+  <path d="M90 142h64c10 0 18 8 18 18v12H72v-12c0-10 8-18 18-18z" fill="url(#g2)"/>
+  <path d="M111 58h18v24h-18z" fill="#f8f7fb" opacity="0.92"/>
+  <text x="120" y="205" text-anchor="middle" font-size="20" font-family="Georgia, serif" font-weight="700" fill="#111827" letter-spacing="3">AFH</text>
+</svg>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Track Your Order | AFIYA FASHION HOUSE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand">
+          <img src="assets/logo/logo.svg" alt="AFIYA logo" />
+          <span class="brand-name">AFIYA FASHION HOUSE</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="container section">
+      <div class="section-header">
+        <h2>Track Your Order</h2>
+        <p>Check the status of your order with your order ID and phone number.</p>
+      </div>
+      <div class="track-form">
+        <div class="input-grid">
+          <div class="field">
+            <label>Order ID</label>
+            <input id="track-order-id" type="text" placeholder="AFH001" />
+          </div>
+          <div class="field">
+            <label>Phone Number</label>
+            <input id="track-phone" type="tel" placeholder="01701585007" />
+          </div>
+        </div>
+        <button class="btn btn-primary" id="track-submit" type="button">Track Order</button>
+        <div id="track-result" class="notice success" style="display: none;">Order tracking is ready for backend integration.</div>
+      </div>
+      <div class="status-flow" style="margin-top: 28px;">
+        <div class="status-step active">Order Received</div>
+        <div class="status-step">Order Confirmed</div>
+        <div class="status-step">Processing</div>
+        <div class="status-step">Packed</div>
+        <div class="status-step">Shipped</div>
+        <div class="status-step">Out for Delivery</div>
+        <div class="status-step">Delivered</div>
+      </div>
+    </main>
+
+    <script src="js/order-tracking.js"></script>
+  </body>
+</html>

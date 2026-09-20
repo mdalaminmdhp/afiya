@@ -1,0 +1,51 @@
+﻿{
+    "Men":  [
+                "Panjabi",
+                "Shirt",
+                "T-Shirt",
+                "Polo Shirt",
+                "Jeans",
+                "Trousers",
+                "Formal Wear",
+                "Casual Wear",
+                "Shoes",
+                "Sandals",
+                "Wallet",
+                "Belt",
+                "Watch",
+                "Sunglasses"
+            ],
+    "Kids":  [
+                 "Kids Dresses",
+                 "Boys Clothing",
+                 "Girls Clothing",
+                 "Kids T-Shirts",
+                 "Kids Pants",
+                 "Party Dresses",
+                 "Baby Clothing",
+                 "Kids Shoes",
+                 "Kids Accessories"
+             ],
+    "Accessories":  [
+                        "Bags",
+                        "Shoes",
+                        "Jewelry",
+                        "Watches",
+                        "Fashion Accessories",
+                        "Beauty \u0026 Personal Care"
+                    ],
+    "Women":  [
+                  "Saree",
+                  "Three Piece",
+                  "Salwar Kameez",
+                  "Kurti",
+                  "Abaya",
+                  "Hijab",
+                  "Tops",
+                  "Dresses",
+                  "Handbags",
+                  "Shoes",
+                  "Jewelry",
+                  "Fashion Accessories"
+              ]
+}

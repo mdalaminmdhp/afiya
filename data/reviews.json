@@ -1,0 +1,66 @@
+﻿[
+    {
+        "name":  "Nusrat Jahan",
+        "rating":  5,
+        "product":  "Premium Women\u0027s Embroidered Saree",
+        "date":  "2026-08-18",
+        "verified":  true,
+        "review":  "Excellent quality and quick delivery. The fabric feels premium and the design is exactly as advertised."
+    },
+    {
+        "name":  "Sadia Islam",
+        "rating":  5,
+        "product":  "Elegant Three Piece Set",
+        "date":  "2026-08-06",
+        "verified":  true,
+        "review":  "Loved the outfit for my event. The tailoring is elegant and the packaging felt luxurious."
+    },
+    {
+        "name":  "Tanzim Rahman",
+        "rating":  4,
+        "product":  "Premium Panjabi",
+        "date":  "2026-07-24",
+        "verified":  true,
+        "review":  "Great fit and smooth ordering process. The Panjabi looks premium and the fabric quality is quite good."
+    },
+    {
+        "name":  "Mariam Ahmed",
+        "rating":  5,
+        "product":  "Luxury Abaya",
+        "date":  "2026-08-10",
+        "verified":  true,
+        "review":  "Fast service and beautiful collection. The fashion edit was impressive and the prices are fair."
+    },
+    {
+        "name":  "Ayan Hossain",
+        "rating":  4,
+        "product":  "Kids Graphic Tee",
+        "date":  "2026-08-02",
+        "verified":  true,
+        "review":  "I ordered kids wear and it arrived on time. The cuts and colors are lovely and the fabric feels soft."
+    },
+    {
+        "name":  "Farhana Ali",
+        "rating":  5,
+        "product":  "Floral Salwar Kameez",
+        "date":  "2026-07-16",
+        "verified":  true,
+        "review":  "The shopping experience was smooth and the dress quality exceeded my expectations. Highly recommended."
+    },
+    {
+        "name":  "Rafiul Karim",
+        "rating":  5,
+        "product":  "Premium Oxford Shirt",
+        "date":  "2026-08-21",
+        "verified":  true,
+        "review":  "Very easy to order and the product matched the website photos. I will definitely shop again."
+    },
+    {
+        "name":  "Shamima Akter",
+        "rating":  4,
+        "product":  "Signature Backpack",
+        "date":  "2026-08-14",
+        "verified":  true,
+        "review":  "Beautiful packaging and nice customer support. The accessories look very classy."
+    }
+]
